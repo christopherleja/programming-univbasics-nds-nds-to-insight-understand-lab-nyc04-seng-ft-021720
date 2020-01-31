@@ -20,10 +20,10 @@ def print_first_directors_movie_titles
         spielberg_movies = puts directors_database[row_index][:movies][inner_index][:title]
         inner_index += 1
         end
+        column_index += 1
       end
-      column_index += 1
+      row_index_index += 1
     end
-    row_index += 1
   end
   spielberg_movies
 end
