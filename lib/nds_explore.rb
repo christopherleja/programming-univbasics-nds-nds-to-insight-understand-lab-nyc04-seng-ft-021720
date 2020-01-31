@@ -12,14 +12,14 @@ def print_first_directors_movie_titles
 
   row_index = 0
   while row_index < directors_database.length do
-    if directors_database[row_index][:name] == "Stephen Spielberg"
-    print directors_database[0][:movies][0]
-    end
+    #if directors_database[row_index][:name] == "Stephen Spielberg"
+    #print directors_database[0][:movies][0]
+    #end
     column_index = 0
     while column_index < directors_database[row_index].length do
-    #  if directors_database[row_index][:name][:movies][:title] 
-      puts "#{directors_database[0][:title]}"
-     #end 
+      if directors_database[row_index][:name] == "Stephen Spielberg" 
+      puts "#{directors_database[0][:title][0]}"
+      end 
       inner_index = 0
       while inner_index < directors_database[row_index[column_index]].length do
         #if directors_database[row_index[column_index[inner_index]]].include?(:title)
