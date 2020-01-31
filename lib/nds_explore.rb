@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
   while row_index < directors_database.length do
       inner_index = 0
       while inner_index < directors_database[row_index].length do
-        if directors_database[row_index][:movies].include?(:title)
+        if directors_database[row_index][:movies].include?("Jaws")
         spielberg_movies = puts directors_database[row_index][:movies][inner_index][:title]
         end
         inner_index += 1
