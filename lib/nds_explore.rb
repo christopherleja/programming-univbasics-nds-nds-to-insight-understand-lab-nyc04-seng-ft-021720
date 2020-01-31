@@ -27,7 +27,7 @@ def print_first_directors_movie_titles
         end
         inner_index += 1
       end
-      column_index += 2
+      column_index += 1
     end
     row_index += 1
   end
