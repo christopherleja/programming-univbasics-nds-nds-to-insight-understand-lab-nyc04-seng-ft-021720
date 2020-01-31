@@ -25,9 +25,9 @@ def print_first_directors_movie_titles
         if directors_database[row_index][:name].include?("Stephen Spielberg")
         puts directors_database[row_index][:movies][inner_index][:title]
         end
-        inner_index += 2
+        inner_index += 1
       end
-      column_index += 1
+      column_index += 2
     end
     row_index += 1
   end
