@@ -22,7 +22,7 @@ def print_first_directors_movie_titles
         end
         column_index += 1
       end
-      row_index_index += 1
+      row_index += 1
     end
   end
   spielberg_movies
