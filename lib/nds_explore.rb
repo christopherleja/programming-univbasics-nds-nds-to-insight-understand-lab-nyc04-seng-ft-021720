@@ -12,18 +12,12 @@ def print_first_directors_movie_titles
 
   row_index = 0
   while row_index < directors_database.length do
-    #if directors_database[row_index][:name] == "Stephen Spielberg"
-    #print directors_database[0][:movies][0]
-    #end
     column_index = 0
     while column_index < directors_database[row_index].length do
-      #if directors_database[row_index][:name] == "Stephen Spielberg" 
-      #puts directors_database[0][:title]
-      #end 
       inner_index = 0
       while inner_index < directors_database[row_index].length do
         if directors_database[row_index][:name].include?("Stephen Spielberg")
-        puts directors_database[row_index][:movies][inner_index][:title]
+        spielberg_movies = puts directors_database[row_index][:movies][inner_index][:title]
         end
         inner_index += 1
       end
@@ -31,7 +25,7 @@ def print_first_directors_movie_titles
     end
     row_index += 1
   end
-  #directors_database
+  spielberg_movies
 end
 
 #directors_database = { name is hash 1, movies is an array, title, studio, worldwide_gross and release_year are hash pairs
