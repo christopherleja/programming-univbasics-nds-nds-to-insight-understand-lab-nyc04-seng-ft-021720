@@ -21,7 +21,7 @@ def print_first_directors_movie_titles
       #puts directors_database[0][:title]
       #end 
       inner_index = 0
-      while inner_index < directors_database[row_index][column_index].length do
+      while inner_index < directors_database[row_index][.length do
         if directors_database[row_index][:name] == "Stephen Spielberg"
         print directors_database[0][:movies][inner_index][:title]
         end
