@@ -18,7 +18,7 @@ def print_first_directors_movie_titles
     column_index = 0
     while column_index < directors_database[row_index].length do
     #  if directors_database[row_index][:name][:movies][:title] 
-      print "#{directors_database[0][:name][column_index][:title]}"
+      print "#{directors_database[0][:name][:title]}"
      #end 
       inner_index = 0
       while inner_index < directors_database[row_index[column_index]].length do
