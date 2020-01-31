@@ -25,7 +25,7 @@ def print_first_directors_movie_titles
         if directors_database[row_index][:name] == "Stephen Spielberg"
         print directors_database[0][:movies][0][:title]
         end
-        inner_index += 10
+        inner_index += 1
       end
       column_index += 1
     end
